@@ -22,7 +22,7 @@ in this particular project, and indeed could bleed there way into this project, 
 Serialization would be the easiest to implement, and would be started at the exit button action listener, where we would make the new file "savedtime" and store it. Then in the
 main of display, have a try-catch that would ask if that file exists, and if it does, call the initializer that takes in a saved time and give it the file that was created, and 
 then delete the file. Otherwise, proceed with first time boot-up, being how it proceeds currently. Recursion would be slightly harder to implement give that it doesn't
-have any necessary use for a clock.
+have any necessary use for a clock, but would be useful for a timer, but again since we already use the timer class, why not just use the timer class.
 
 ### Running the File
 Make sure that Clock.java and Display.java are in the same directory, then run the Display.java file. That should be all the user must do so long as they have JDK13 and up installed on their computer.
