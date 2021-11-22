@@ -1,7 +1,7 @@
-### Simple Clock
+# Simple Clock
 A simple clock that will display either military time, or if requested, regular time based on the user input.
 
-# README
+### README
 The display class harbors the main method, so run that. It will automatically set the clock to mode "R", and begin at a base of 12:00 AM. The UI is fairly straight forward, you
 have the options button, and the exit button underneath the clock display. Exiting the program either requires pressing the X in the top right of the window, or pressing the exit
 button itself. 
@@ -13,5 +13,5 @@ that hides the regular functions and shows the military options.
 
 There is more hidden functionality for quality of life purposes that are scattered throughout the code, but will not be discussed here.
 
-# Running the File
+### Running the File
 Make sure that Clock.java and Display.java are in the same directory, then run the Display.java file. That should be all the user must do so long as they have JDK13 and up installed on their computer.
