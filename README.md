@@ -11,13 +11,18 @@ the minutes and hours, but not the seconds. There is also the functionality of s
 is possible through three spinners, one for hours, one for minutes, and one for the period AM or PM. If the user only wants military, there is a radio button 
 that hides the regular functions and shows the military options. 
 
-There is more hidden functionality for quality of life purposes that are scattered throughout the code, but will not be discussed here. If there was anything else to be added to
+There is more hidden functionality for quality of life purposes that are scattered throughout the code, but will not be discussed here. 
+
+### Recollection
+If there was anything else to be added to
 the code, it would be serialization. As the code demonstrates skills of methods, classes, overloading, GUI components, java swing, timers and tasks, thread use, initializers, 
-getters and setters, helper methods, and data structures such as ArrayLists. Serialization, recursion, and polymorphism are the only other concepts that are lacking 
+getters and setters, helper methods, polymorphism, and data structures such as ArrayLists. Serialization, and recursion are the only other concepts that are lacking 
 in this particular project, and indeed could bleed there way into this project, but for time sake I chose to leave those out.
 
 Serialization would be the easiest to implement, and would be started at the exit button action listener, where we would make the new file "savedtime" and store it. Then in the
-main of display, have a try-catch that would ask if that file exists, and if it does, call the initializer that takes in a saved time and give it the file that was created, and then delete the file. Otherwise, proceed with first time boot-up, being how it proceeds currently.
+main of display, have a try-catch that would ask if that file exists, and if it does, call the initializer that takes in a saved time and give it the file that was created, and 
+then delete the file. Otherwise, proceed with first time boot-up, being how it proceeds currently. Recursion would be slightly harder to implement give that it doesn't
+have any necessary use for a clock.
 
 ### Running the File
 Make sure that Clock.java and Display.java are in the same directory, then run the Display.java file. That should be all the user must do so long as they have JDK13 and up installed on their computer.
